@@ -1,0 +1,118 @@
+/* Código - Parte HTML */
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="..\css\style.css">
+		<script src="https://use.fontawesome.com/6902c4df93.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Processo Chuva </title>
+	</head>
+	<body>
+		<header>
+			<div class="topo">
+				<div class="apresentação">
+					<h1>Simpósio Latino Americano de Ciência de Alimentos</h1>
+					<h2>13º Simpósio</h2>
+					<p>ISSN: 1234-5678</p>
+				</div>
+
+				<div class="linguagem">
+					<i class="fa fa-flag-o" aria-hidden="true"></i>
+					<select>
+						<option>PT-BR</option>
+						<option>EN</option>
+						<option>ESP</option>
+					</select>
+				</div>
+
+				<div class="login">
+					<p>Bem vindo!</p>
+					<p>Chuva - Admin</p>
+				</div>
+					<div class="img">
+						<img src="..\midia\chuva.png" width="32px" height="35px">
+					</div>
+			</div>
+		</header>
+
+		<nav>
+				<!-- Header - detalhes da empresa - Matéria do ano (2020) -->
+
+			<div class="logo">
+				<img src="..\midia\logo.png" height="295" width="220px">
+
+				<div class="linhas">
+					<ul>
+						<a href="#"><li>Apresentação</li></a>
+						<a href="#"><li>Comitês</li></a>
+						<a href="#"><li>Autores</li></a>
+						<a href="#"><li>Eixos temáticos</li></a>
+						<a href="#"><li>Trabalhos</li></a>
+						<a href="#"><li>Contato</li></a>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<h3> O teor de clorofilas e carotenoides em azeites pode ser determinado usando um smartphone </h3>
+			<div class="clorofilas">
+				<embed src="https://scontent.fvcp10-1.fna.fbcdn.net/v/t1.0-9/75610863_2736614466383775_7895938121156526080_o.jpg?_nc_cat=107&ccb=2&_nc_sid=cdbe9c&_nc_eui2=AeHdm0_dCyy_zdioMemSkXBCTmCJFpueqDVOYIkWm56oNXokr9RUd2PVSZX0bECcBd_mkZzllzRDzLGhlTBu9UhT&_nc_ohc=GHerfQusotEAX_4Z_Fc&_nc_ht=scontent.fvcp10-1.fna&oh=63de3a7990d10514c220bef82325526a&oe=5FDC2178" width = "755" height = "400">
+			</div>
+		</main>
+				<!-- Detalhes do trablho escolhido -->
+		<aside>
+			<div class="sitação">
+				<h4>Detalhes</h4>
+				<p>Tipo de Apresentação: Texto</p>
+				<p>Eixo temático: Alimentação e Saúde (AS)</p>
+				<p>palavras chaves: Azeite, smartphone, inovação, tecnologia</p>
+				<div class="autoria">
+					<p>Autores: </p>
+						<a href="#">Thaís Cristina Lima de Carvalho </a><br>
+						<a href="#">Nathália Cristina Silva Brito </a><br>
+						<a href="#">Cleiton Nunes</a><br>
+				</div>	
+			</div>
+		</aside>
+
+		<article>
+			<div class="resumo">
+				<div class="titulo"><p>Resumo</p></div>
+				<p>A determinação de clorofilas e carotenoides totais em azeites é normalmente feita por métodos espectrofotométricos. Por outro lado, câmeras de smartphones têm demonstrando potencial como instrumentos para análise química. Assim, este trabalho teve como objetivo avaliar o potencial do uso de imagens digitais obtidas com smartphone para determinar o teor de clorofilas e carotenoides em azeites. Imagens de 50 amostras de azeite de oliva e abacate, colocadas dentro de uma cubeta de vidro, foram obtidas utilizando um smartphone. Os parâmetros de cor RGB dos azeites foram calibrados usando Regressão Linear Múltipla contra os respectivos teores de clorofilas e carotenoides obtidos pelos métodos espectrofotométricos. Os dados foram obtidos em triplicata, totalizando 150 observações. Um conjunto de teste, externo à calibração, foi constituído de 25% das observações. Esse modelo apresentou R2 de 0,97 e erro médio quadrático (RMSE) de 0,77 mg/Kg para calibração, R2 de 0,96 e RMSE de 0,82 mg/Kg para validação cruzada e R2 de 0,97 e RMSE de 0,72 mg/Kg para o grupo teste. Já para carotenoides, obteve-se R2 de 0,91 e RMSE de 0,20 mg/Kg para calibração, R2 de 0,90 e RMSE de 0,21 mg/Kg para validação cruzada e R2 de 0,81 e RMSE de 0,23 mg/Kg para o grupo teste. Portanto, foi obtida uma boa correlação entre os teores de clorofilas e carotenoides determinados usando o smartphone e aqueles determinados usando métodos espectrofotométricos. Os erros do método proposto estão em um nível aceitável considerando os níveis de clorofilas e carotenoides comumente encontrados nesses azeites (até 16 mg/Kg de clorofilas e até 2,5 mg/Kg de carotenoides). A principal vantagem foi a análise direta dos azeites, sem a necessidade de diluição em solventes orgânicos. A perspectiva é aprimorar o método proposto introduzindo um método para correção da iluminação das imagens e utilizando métodos de calibração com maior capacidade preditiva.</p>
+			</div>
+				<!-- Começo do Formulário-->
+			<div class="publico">
+				<div class="titulo_publico">
+					<p>Conte-nos o que achou, deixe seu comentário ou uma pergunta.</p>
+				</div>
+				<form action="" method="post">
+					<div class="formulario">
+						<label class="nome_formulario">Nome</label><br>
+						<input class="input input_nome" name="nome" required="required" placeholder="" type="text"><br>
+						<label class="comentario_formulario" for="">Seu comentário</label><br>
+						<input class="input input_comentario" name="comentario" required="required" type="text"><br>
+						<button type="submit">ENVIAR</button>
+					</div>
+				</form>
+				<!-- Final do Formulário -->
+			</div>
+		</article>
+		<footer>
+			<!-- Footer com a imagem da Galoá e o texto -->
+			<div class="footer">
+				<div class="final final_img">
+					<img src="..\midia\galoa.png" width="200px" height="150px">
+				</div>
+				<div class="final final_txt">
+					<p>Preservar a memória da conferência e aumentar o alcance do conhecimento científico é a razão pela qual o Processo de Galoá foi criado.<br>
+					Os trabalhos da conferência publicados aqui são de acesso aberto e nossa indexação mantém os trabalhos apresentado na conferência fácil de encontrar e citar.</p>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+</html>
